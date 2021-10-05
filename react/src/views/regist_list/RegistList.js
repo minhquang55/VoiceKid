@@ -72,7 +72,7 @@ const RegistList = () => {
       selector: (row, index) => {
         return (
           <>
-            <CButton color="primary" style={marginButton} onClick={() => handleClickEditBtn(row.id)}>Sửa</CButton>
+            {/* <CButton color="primary" style={marginButton} onClick={() => handleClickEditBtn(row.id)}>Sửa</CButton> */}
             <CButton color="danger" variant="outline" onClick={() => handleClickDeleteBtn(row.id)}>Xóa</CButton>
           </>
         )
